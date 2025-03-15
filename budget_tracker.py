@@ -11,7 +11,7 @@ import datetime
 st.set_page_config(layout="wide")  # Always starts in wide mode
 
 # **🔹 Load Data**
-file_path = r"C:\Users\karti\dashboard\Homesick Budget Tracker.xlsx"
+file_path = r"Homesick Budget Tracker.xlsx"
 xls = pd.ExcelFile(file_path)
 
 df_expenses = pd.read_excel(xls, "Total Spend")
