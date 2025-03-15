@@ -40,7 +40,7 @@ df_artists["Month"].fillna(pd.to_datetime(df_artists["Remaining Forecast Payment
 st.sidebar.header("Homesick® by Kunal")
 
 # **🔹 Sidebar Logo**
-st.sidebar.image("C:/Users/karti/dashboard/Homesick_logo.jpeg", use_container_width=True)
+st.sidebar.image("Homesick_logo.jpeg", use_container_width=True)
 
 # **🔹 Sidebar - Next & Overdue Payments**
 st.sidebar.subheader("📌 Upcoming & Overdue Payments")
